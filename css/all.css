@@ -1,23 +1,18 @@
-@font-face {
-    font-family: 'open_sanslight';
-    src: url('../fonts/open_sans_light_regular-webfont.eot');
-    src: url('../fonts/open_sans_light_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/open_sans_light_regular-webfont.woff2') format('woff2'),
-         url('../fonts/open_sans_light_regular-webfont.woff') format('woff'),
-         url('../fonts/open_sans_light_regular-webfont.ttf') format('truetype'),
-         url('../fonts/open_sans_light_regular-webfont.svg#open_sanslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
 
 body {
 	background-color: #f9f9f9;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 .wrapper {
 	width: 966px;
 	padding: 0 48px 0 46px;
 	margin: 0 auto;
 	background-color: #fff;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
 .logo {
 	display: block;
@@ -32,13 +27,12 @@ nav {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-background-image: none;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#444343+0,5e5e5e+100 */
-background: #444343; /* Old browsers */
-background: -webkit-linear-gradient(left, #444343 0%, #5e5e5e 100%);
-background: -o-linear-gradient(left, #444343 0%, #5e5e5e 100%);
-background: linear-gradient(to right, #444343 0%, #5e5e5e 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e',GradientType=1 ); /* IE6-9 */
-
+	background-image: none;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#444343+0,5e5e5e+100 */
+	background: #444343; /* Old browsers */
+	background: -webkit-linear-gradient(left, #444343 0%, #5e5e5e 100%);
+	background: -o-linear-gradient(left, #444343 0%, #5e5e5e 100%);
+	background: linear-gradient(to right, #444343 0%, #5e5e5e 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e',GradientType=1 ); /* IE6-9 */
 }
 
 nav li {
@@ -48,8 +42,8 @@ nav li {
 nav li a {
 	display: block;
 	text-decoration: none;
+	font-size: 14.67px;
 	color: #fff;
-	font-style: tahoma;
 	padding: 0 25px 0 25px;
 	border-right: 1px solid transparent;
 	border-left: 1px solid transparent;
@@ -58,12 +52,11 @@ nav li a {
 nav li a:hover {
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e2e2e+0,4a4a4a+100 */
-background: #2e2e2e; /* Old browsers */
-background: -moz-linear-gradient(left,  #2e2e2e 0%, #4a4a4a 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #2e2e2e 0%,#4a4a4a 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #2e2e2e 0%,#4a4a4a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4a4a4a',GradientType=1 ); /* IE6-9 */
+	background: #2e2e2e; /* Old browsers */
+	background: -webkit-linear-gradient(left, #2e2e2e 0%, #4a4a4a 100%);
+	background: -o-linear-gradient(left, #2e2e2e 0%, #4a4a4a 100%);
+	background: linear-gradient(to right, #2e2e2e 0%, #4a4a4a 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4a4a4a',GradientType=1 ); /* IE6-9 */
 }
 
 .main {
@@ -95,6 +88,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', end
 .sidebar ul li a {
 	color: #656363;
 	text-decoration: none;
+	font-size: 13.33px;
 	line-height: 39px;
 }
 .content {
@@ -108,15 +102,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', end
 	width: 500px;
 	height: 307px;
 	border: 1px solid #c8c8c8;
-	padding: 46px 89px 45px 87px;
-	margin-left: 47px;
+	padding: 46px 88px 45px 87px;
+	margin-left: 48px;
 }
 
 .content p {
-	font-family: 'open_sanslight';
-	font-size: 16px;
+	font-size: 13.33px;
 	margin: 0;
-	padding: 33px 0 39px 70px;
+	padding: 33px 0 60px 70px;
 	text-align: left;
 	line-height: 21px;
 	color: black;
@@ -142,8 +135,8 @@ footer nav li:last-child {
 footer nav li a {
 	display: block;
 	text-decoration: none;
+	font-size: 13.33px;
 	color: #2c2c2c;
-	font-style: tahoma;
 	padding: 0 25px 0 25px;
 	border-right: 1px solid transparent;
 	border-left: 1px solid transparent;
@@ -152,10 +145,12 @@ footer nav li a {
 footer nav li:last-child a {
 	padding: 0 22px 0 0;
 }
+footer nav li:last-child a:hover {
+	text-decoration: none;
+}
 footer nav li a:hover {
 	border-right: 1px solid transparent;
 	border-left: 1px solid transparent;
 	text-decoration: underline;
 	background: none;
-	padding: 0 0 0 0;
 }
