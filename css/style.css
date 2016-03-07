@@ -23,7 +23,7 @@ body {
 	height: 40px;
 	margin: 54px 0 36px 0;
 }
-nav {
+.nav {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -32,14 +32,13 @@ nav {
 	background: -webkit-linear-gradient(left, #444343 0%, #5e5e5e 100%);
 	background: -o-linear-gradient(left, #444343 0%, #5e5e5e 100%);
 	background: linear-gradient(to right, #444343 0%, #5e5e5e 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e',GradientType=1 ); /* IE6-9 */
 }
 
-nav li {
+.nav li {
 	display: inline-block;
 	padding: 0 33px 0 0;
 }
-nav li a {
+.nav li a {
 	display: block;
 	text-decoration: none;
 	font-size: 14.67px;
@@ -49,14 +48,13 @@ nav li a {
 	border-left: 1px solid transparent;
 	line-height: 40px;
 }
-nav li a:hover {
+.nav li a:hover {
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
 	background: #2e2e2e; /* Old browsers */
 	background: -webkit-linear-gradient(left, #2e2e2e 0%, #4a4a4a 100%);
 	background: -o-linear-gradient(left, #2e2e2e 0%, #4a4a4a 100%);
 	background: linear-gradient(to right, #2e2e2e 0%, #4a4a4a 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4a4a4a',GradientType=1 ); /* IE6-9 */
 }
 
 .main {
@@ -117,22 +115,22 @@ nav li a:hover {
 footer {
 	padding-bottom: 63px;
 }
-footer nav {
+.nav-footer {
 	margin: 0;
 	padding: 0 0 0 0 ;
 	list-style: none;
 	background: #e1e1e1;
 }
 
-footer nav li {
+.nav-footer li {
 	display: inline-block;
 	padding: 0 33px 0 0;
 }
-footer nav li:last-child {
+.nav-footer li:last-child {
 	float: right;
 	padding: 0;
 }
-footer nav li a {
+.nav-footer li a {
 	display: block;
 	text-decoration: none;
 	font-size: 13.33px;
@@ -142,13 +140,13 @@ footer nav li a {
 	border-left: 1px solid transparent;
 	line-height: 40px;
 }
-footer nav li:last-child a {
+.nav-footer li:last-child a {
 	padding: 0 22px 0 0;
 }
-footer nav li:last-child a:hover {
+.nav-footer li:last-child a:hover {
 	text-decoration: none;
 }
-footer nav li a:hover {
+.nav-footer li a:hover {
 	border-right: 1px solid transparent;
 	border-left: 1px solid transparent;
 	text-decoration: underline;
